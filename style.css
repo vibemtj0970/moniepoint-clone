@@ -11,7 +11,7 @@
 
 *{
 margin: 0px;
-padding: opx;
+padding: o;
 box-sizing: border-box;
  font-family: "Estedad", sans-serif;
 }
@@ -279,7 +279,8 @@ a{
 }
 
 .first .acc-info-img .person-img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -382,7 +383,9 @@ a{
 
 
 .third-img{
-    width: 600px;
+    max-width:100%;
+    height: auto;
+
 }
 
 #fourth{
@@ -447,7 +450,9 @@ a{
 }
 
 .fourth-img{
-    width: 600px;
+    max-width:100%;
+    height: auto;
+    
 }
 
 
@@ -514,7 +519,8 @@ a{
 }
 
 .fifth-img{
-    width: 600px;
+    max-width:100% ;
+    height: auto;
 }
 
 
@@ -581,7 +587,8 @@ a{
 }
 
 .sixth-img{
-    width: 600px;
+    max-width: 100%;
+    height: auto;
 }
 
 #seventh{
@@ -622,7 +629,7 @@ a{
 }
 
 .seventh-img{
-    width: 500px;
+    width: 100%;
     height:480px;
     margin-left: 20px;
     object-fit: cover;
@@ -721,7 +728,8 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 385px;
     background-color: white;
     padding-top:36px;
@@ -878,7 +886,8 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 385px;
     background-color: white;
     padding-top:36px;
@@ -1199,7 +1208,7 @@ a{
 
 
 #fourteen{
-    height: 100vh;
+    height: 900px;
       background-color: rgb(247, 247, 248);
       color: rgba(3, 15, 52, 0.925);
 
@@ -1216,157 +1225,187 @@ a{
     font-weight: 550;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.fourteen-container p{
+    font-size: 22px;
+    font-weight: 400;
+     color:rgba(38, 87, 151, 0.977);
+     line-height: 28px;
+     letter-spacing: -1px;
+}
+
+
+.all-fourteen-description-container{
+    display: flex;
+    justify-content:center;
+
+    gap: 20px;
+    padding-left: 55px;
+    padding-right: px;
+    
+}
+
+
+.fourteen-description-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.fourteen-img-1{
+    max-width: 360px;
+    width: 100%;
+    height:auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    
+}
+
+.fourteen-description{
+    display: flex;
+    gap: 190px;
+}
+
+.fourteen-description h2{
+    font-size: 15px;
+    font-weight: 450;
+    color: #0066ff;
+    letter-spacing: -1;
+}
+
+.fourteen-description p{
+    font-size: 14px;
+    color: gray;
+
+}
+
+.fourteen-info h3{
+    font-size: 24px;
+    font-weight: 560;
+    letter-spacing: -1px;
+    line-height: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgba(6, 26, 92, 0.884);
+}
+
+.fourteen-info b{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(67, 65, 65, 0.68);
+}
+
+
+#fifteen{
+    height: 300px;
+     background-color: rgb(247, 247, 248);
+       color: rgba(3, 15, 52, 0.925);
+}
+
+.fifteen-container{
+    height: 300px;
+    background-image: url(https://moniepoint.com/ctaL.svg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+
+}
+
+.fifteen-overlay{
+    background-color:  #001affb7;
+    height: 300px;
+    position: relative;
+    padding-top: 80px;
+    color: white;
+    
+}
+
+.fifteen-overlay h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.fifteen-overlay button{
+    width: 210px;
+    height: 58px;
+    display: flex;
+    gap: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(244, 218, 186, 0.934);
+}
+
+.fifteen-overlay button:hover{
+    width: 200px;
+    height: 55px;
+    font-size: 16px;
+
+}
+
+
+.fifteen-overlay .bell{
+    
+    font-size: 20px;
+    font-weight: 600;
+
+    
+}
+
+
+#footer{
+    height: 400px;
+    background-color: rgba(8, 8, 33, 0.993);
+    color: rgba(255, 255, 255, 0.311);
+    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+}
+
+.footer-container-des{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+.foot-1:hover{
+    text-decoration: underline;
+}
+
+.foot-2:hover{
+    text-decoration: underline;
+}
+
+#footer p{
+    font-size: 14px;
+}
+
+#footer  .des{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: 390;
+    line-height: 22px;
+    letter-spacing: -0.8px;
+    
+}
 
 
 
